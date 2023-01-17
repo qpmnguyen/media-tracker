@@ -1,0 +1,11 @@
+name: media-tracker
+channels: 
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - pip
+  - pip:
+    - shiny
+    - shinylive
